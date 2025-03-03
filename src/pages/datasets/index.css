@@ -1,0 +1,14 @@
+.xdatasets .xtitle {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.xdatasets .xcontent {
+    margin-left: 40px;
+    text-align: center;
+}
+.xdatasets .xcontent .xitem{
+    display: inline-block;
+    width: 360;
+    margin: '30px 100px';
+}

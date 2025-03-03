@@ -1,0 +1,18 @@
+
+.xdisease {
+    padding: 0 40px;
+    min-height: 100vh;
+}
+
+.xdisease .xframe {
+    padding: 0 5px;
+    min-height: 100vh;
+}
+
+.xdisease .xbreadcrumb {
+    padding-top: 10px;
+}
+
+.xdisease .xparagraph {
+    font-size: 20px;
+}

@@ -1,0 +1,18 @@
+
+.xfood {
+    padding: 0 40px;
+    min-height: 100vh;
+}
+
+.xfood .xframe {
+    padding: 0 5px;
+    min-height: 100vh;
+}
+
+.xfood .xbreadcrumb {
+    padding-top: 10px;
+}
+
+.xfood .xparagraph {
+    font-size: 20px;
+}
