@@ -32,7 +32,7 @@
   "scripts": {
     "start": "REACT_APP_BASE_URL=http://127.0.0.1:8000 react-scripts start",
     "start:mock": "REACT_APP_BASE_URL= REACT_APP_ENABLE_MOCK=1 react-scripts start",
-    "build": "HTTPS=true REACT_APP_BASE_URL=https://107.189.11.53/ react-scripts docs",
+    "build": "HTTPS=true REACT_APP_BASE_URL=https://107.189.11.53/ react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

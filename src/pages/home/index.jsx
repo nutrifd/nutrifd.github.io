@@ -82,7 +82,7 @@ export function Home(props) {
 function SearchFood(props) {
     let history = useHistory();
     function enter(text) {
-        history.push('/nutrifd-ui/food?search=' + text);
+        history.push('/food?search=' + text);
     }
     return <InputSearch
         onSearch={(text) => {
@@ -98,7 +98,7 @@ function SearchFood(props) {
 function SearchDisease(props) {
     let history = useHistory();
     function enter(text) {
-        history.push('/nutrifd-ui/disease?search=' + text);
+        history.push('/disease?search=' + text);
     }
     return <InputSearch
         onSearch={(text) => {

@@ -54,7 +54,7 @@ export default function App() {
               key='1'
             >
 
-              <Link to="/nutrifd-ui">
+              <Link to="/">
                 <div
                   style={{
                     width: 50,
@@ -68,24 +68,24 @@ export default function App() {
                   }}
                 /></Link>
             </MenuItem>
-            <MenuItem key='2'><Link to="/nutrifd-ui/food?search=">Food</Link></MenuItem>
-            <MenuItem key='3'><Link to="/nutrifd-ui/disease?search=">Disease</Link></MenuItem>
+            <MenuItem key='2'><Link to="/food?search=">Food</Link></MenuItem>
+            <MenuItem key='3'><Link to="/disease?search=">Disease</Link></MenuItem>
             <MenuItem key='4'><MyLink href="https://drive.google.com/file/d/1qR72iYKEy649kfNIaej4hUukyBDQwFS-/view?usp=sharing">Datasets</MyLink></MenuItem>
-            <MenuItem key='5'><Link to="/nutrifd-ui/about">About</Link></MenuItem>
+            <MenuItem key='5'><Link to="/about">About</Link></MenuItem>
           </Menu>
           </Header>
           <Content style={{
             minHeight: '100vh',
             paddingBottom: '50px',
           }}><Switch>
-              <Route path="/nutrifd-ui/about" component={About} />
-              <Route path="/nutrifd-ui/datasets" component={Datasets} />
-              <Route path="/nutrifd-ui/food/detail" component={FoodDetail} />
-              <Route path="/nutrifd-ui/food" component={FoodList} />
-              <Route path="/nutrifd-ui/disease/detail" component={DiseaseDetail} />
-              <Route path="/nutrifd-ui/disease" component={DiseaseList} />
+              <Route path="/about" component={About} />
+              <Route path="/datasets" component={Datasets} />
+              <Route path="/food/detail" component={FoodDetail} />
+              <Route path="/food" component={FoodList} />
+              <Route path="/disease/detail" component={DiseaseDetail} />
+              <Route path="/disease" component={DiseaseList} />
               <Route path="/404" component={Page404} />
-              <Route path="/nutrifd-ui" component={Home} />
+              <Route path="/" component={Home} />
             </Switch></Content>
           <Footer style={{
             backgroundColor: '#eeeeee',

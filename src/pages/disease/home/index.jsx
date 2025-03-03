@@ -100,7 +100,7 @@ function DiseaseListTable(props) {
                     searchButton={true}
                     defaultValue={name}
                     onSearch={value => {
-                        props.history.push({ pathname: '/nutrifd-ui/disease', search: '?search=' + value });
+                        props.history.push({ pathname: '/disease', search: '?search=' + value });
                     }}
                 /></Col>
             <Col flex={'250px'}>
@@ -114,7 +114,7 @@ function DiseaseListTable(props) {
         onRow={(record, index) => {
             return {
                 onClick: (event) => {
-                    history.push({ pathname: '/nutrifd-ui/disease/detail', search: '?name=' + record.name })
+                    history.push({ pathname: '/disease/detail', search: '?name=' + record.name })
                 },
             }
         }}

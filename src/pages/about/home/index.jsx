@@ -29,9 +29,9 @@ export function About(props) {
         newGraph.nodes_router = {}
         newGraph.nodes = graph.nodes.map(d => {
             if (d.color === 'rgb(178,110,0)') {
-                newGraph.nodes_router[d.id] = "/nutrifd-ui/food/detail?name=" + d.id.toLowerCase();
+                newGraph.nodes_router[d.id] = "/food/detail?name=" + d.id.toLowerCase();
             } else {
-                newGraph.nodes_router[d.id] = "/nutrifd-ui/disease/detail?name=" + d.id.toLowerCase();
+                newGraph.nodes_router[d.id] = "/disease/detail?name=" + d.id.toLowerCase();
             }
             return d
         })

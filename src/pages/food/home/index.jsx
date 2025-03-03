@@ -99,7 +99,7 @@ function FoodListTable(props) {
                     searchButton={true}
                     defaultValue={name}
                     onSearch={value => {
-                        props.history.push({ pathname: '/nutrifd-ui/food', search: '?search=' + value });
+                        props.history.push({ pathname: '/food', search: '?search=' + value });
                     }}
                 /></Col>
             <Col flex={'250px'}>
@@ -113,7 +113,7 @@ function FoodListTable(props) {
             onRow={(record, index) => {
                 return {
                     onClick: (event) => {
-                        history.push({ pathname: '/nutrifd-ui/food/detail', search: '?name=' + record.name })
+                        history.push({ pathname: '/food/detail', search: '?name=' + record.name })
                     },
                 }
             }}
